@@ -14,7 +14,7 @@ router.post("/register", postRegister);
 router.post("/login", loginUser);
 router.post("/forgetpassword", forgetPassword);
 router.post("/resetpassword", passwordReset);
-router.get("/validate-token", getValidateToken); // localhost:3000/user/validate-token
+router.get("/validate-token", getValidateToken);
 router.get("/validateresetcode/:code", ValidateResetCode);
 
 export default router;
