@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 app.use(
   cors({
-    origin: "https://diet-suggestion-app-frontend.netlify.app/",
+    origin: "https://diet-suggestion-app-frontend.netlify.app",
   })
 );
 app.use(express.json());
