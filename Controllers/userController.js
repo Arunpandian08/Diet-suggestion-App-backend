@@ -112,10 +112,8 @@ export const forgetPassword = async (request, response) => {
     await userData.updateOne({ email }, { resetCode: token });
 
     // Construct reset URL with token
-    const resetURL = `http://localhost:5173/resetpassword/${encodeURIComponent(
-      token
-    )}`;
-
+    const resetURL = `https://diet-suggestion-app-frontend.netlify.app/resetpassword/${encodeURIComponent(token)}`;
+    
     // Construct email message
     const mailOptions = {
       from: process.env.EMAIL_ID,
