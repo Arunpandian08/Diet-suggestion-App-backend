@@ -4,7 +4,7 @@
 
 **🩸You can see the App in 📌[Netlify.com](https://diet-suggestion-app-frontend.netlify.app/)**
 
-**🩸Backend Code Deployed in 📌[Rendor.com](https://diet-suggestion-app-backend.onrender.com)**
+**🩸Backend Deployed in 📌[Rendor.com](https://diet-suggestion-app-backend.onrender.com)**
 
 ---
 **📂Folder Structure (MVC)**
